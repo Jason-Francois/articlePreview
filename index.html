@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Frontend Mentor | Article preview component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        bottom: 20px;
+        position:fixed;
+        left: 35%;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="article centered">
+      <div class="articleBox flex">
+        <div class="imageBox"></div>
+        <div class="textBox">
+          <div class="text">
+            <h2>
+              Shift the overall look and feel by adding these wonderful touches
+              to furniture in your home
+            </h2>
+            <p>
+              Ever been in a room and felt like something was missing? Perhaps
+              it felt slightly bare and uninviting. I’ve got some simple tips to
+              help you make any room feel complete.
+            </p>
+          </div>
+          <div class="pub-info flex flex-jc-sb flex-ai-c">
+            <div class="author flex flex-jc-se flex-ai-c">
+              <div class="author-img"></div>
+              <div class="author-info">
+                <p id="author">Michelle Appleton</p>
+                <p id="pub-date">28 Jun 2020</p>
+              </div>
+            </div>
+            <div class="button">
+              <button class="social"><i class="fa fa-arrow-right"></i></button>
+            </div>
+          </div>
+          <div class="menu">
+            <div class="menuBox flex flex-ai-c">
+              <p>Share</p>
+              <div class="iconBox">
+                <a href=""><i class="fa fa-facebook"></i></a>
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href=""><i class="fa fa-pinterest"></i></a>
+              </div>
+            </div>
+            <div class="triangle"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/Jason-Francois">Jason Francois</a>.
+    </div>
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>
